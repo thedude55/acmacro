@@ -21,7 +21,7 @@ def click(x, y):
     hover(x, y)
     pydirectinput.click()
 
-def is_image_on_screen(image_path, confidence=0.8):
+def is_image_on_screen(image_path, confidence=0.9):
     """Check if an image is currently visible on screen.
     
     Args:
